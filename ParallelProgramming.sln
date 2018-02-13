@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParallelProgramming", "ParallelProgramming\ParallelProgramming.vcxproj", "{07418440-E213-473A-8A68-6ACD00A61D2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A920C02-1C03-4570-B948-855B90C1DD9B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07418440-E213-473A-8A68-6ACD00A61D2E}.Debug|x64.ActiveCfg = Debug|x64
+		{07418440-E213-473A-8A68-6ACD00A61D2E}.Debug|x64.Build.0 = Debug|x64
+		{07418440-E213-473A-8A68-6ACD00A61D2E}.Debug|x86.ActiveCfg = Debug|Win32
+		{07418440-E213-473A-8A68-6ACD00A61D2E}.Debug|x86.Build.0 = Debug|Win32
+		{07418440-E213-473A-8A68-6ACD00A61D2E}.Release|x64.ActiveCfg = Release|x64
+		{07418440-E213-473A-8A68-6ACD00A61D2E}.Release|x64.Build.0 = Release|x64
+		{07418440-E213-473A-8A68-6ACD00A61D2E}.Release|x86.ActiveCfg = Release|Win32
+		{07418440-E213-473A-8A68-6ACD00A61D2E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {492106EC-FA8A-41F1-A407-2357D820E109}
+	EndGlobalSection
+EndGlobal
