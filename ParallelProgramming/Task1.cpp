@@ -4,12 +4,12 @@
 
 using namespace std;
 
-static class Task1 {
+namespace Lab1 {
 
-	static void run() {
-		cout << "hello world!" << endl;
-#pragma omp parallel 
-		cout << "hello parallel world!" << endl;
-	}
+	static class Task1 {
 
-};
+		static void run() {
+		}
+
+	};
+}
