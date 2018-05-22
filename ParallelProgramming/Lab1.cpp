@@ -13,7 +13,10 @@ namespace FirstLab {
 	Lab1::~Lab1() { }
 
 	void Lab1::task1() {
+<<<<<<< HEAD
 		printf("lab 1 task 1:\n");
+=======
+>>>>>>> 0e0dc989f5f440f2f865995bb1bdafedf49acbde
 		printf("hello world!\n");
 
 #pragma omp parallel
@@ -21,8 +24,11 @@ namespace FirstLab {
 	}
 
 	void Lab1::task2() {
+<<<<<<< HEAD
 		printf("lab 1 task 2:\n");
 
+=======
+>>>>>>> 0e0dc989f5f440f2f865995bb1bdafedf49acbde
 		printf("hello world!\n");
 		omp_set_num_threads(2);
 
@@ -34,8 +40,11 @@ namespace FirstLab {
 	}
 
 	void Lab1::task3() {
+<<<<<<< HEAD
 		printf("lab 1 task 3:\n");
 
+=======
+>>>>>>> 0e0dc989f5f440f2f865995bb1bdafedf49acbde
 		printf("default - %d\n", omp_get_dynamic());
 
 #pragma omp parallel num_threads(16)

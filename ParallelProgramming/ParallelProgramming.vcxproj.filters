@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
@@ -41,5 +42,27 @@
     <ClCompile Include="Lab2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+=======
+    <ClCompile Include="Lab1.cpp" />
+    <ClCompile Include="Lab2.cpp" />
+    <ClCompile Include="Lab3.cpp" />
+    <ClCompile Include="Lab4.cpp" />
+    <ClCompile Include="Lab6.cpp" />
+    <ClCompile Include="Lab7.cpp" />
+    <ClCompile Include="Lab8.cpp" />
+    <ClCompile Include="ParallelProgramming.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lab1.h" />
+    <ClInclude Include="Lab2.h" />
+    <ClInclude Include="Lab3.h" />
+    <ClInclude Include="Lab4.h" />
+    <ClInclude Include="Lab6.h" />
+    <ClInclude Include="Lab7.h" />
+    <ClInclude Include="Lab8.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+>>>>>>> 0e0dc989f5f440f2f865995bb1bdafedf49acbde
   </ItemGroup>
 </Project>

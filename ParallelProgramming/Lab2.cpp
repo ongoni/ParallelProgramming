@@ -13,6 +13,7 @@ namespace SecondLab {
 	Lab2::~Lab2() { }
 
 	void Lab2::task1() {
+<<<<<<< HEAD
 		printf("lab 2 task 1:\n");
 
 #pragma omp parallel num_threads(4) 
@@ -27,6 +28,20 @@ namespace SecondLab {
 	void Lab2::task2() {
 		printf("lab 2 task 2:\n");
 
+=======
+#pragma omp parallel num_threads(4) 
+		{
+			printf("hello parallel world!\n");
+
+#pragma omp single 
+			printf("hello another parallel world!\n");
+
+			printf("hello world!\n");
+		}
+	}
+
+	void Lab2::task2() {
+>>>>>>> 0e0dc989f5f440f2f865995bb1bdafedf49acbde
 		int n = 0;
 #pragma omp parallel num_threads(4) private(n)
 		{
@@ -43,8 +58,11 @@ namespace SecondLab {
 	}
 
 	void Lab2::task3() {
+<<<<<<< HEAD
 		printf("lab 2 task 3:\n");
 
+=======
+>>>>>>> 0e0dc989f5f440f2f865995bb1bdafedf49acbde
 		const int N = 8;
 		int a[N];
 
